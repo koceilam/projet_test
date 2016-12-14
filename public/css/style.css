@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+.quote-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2em 4em;
+}
+
+.quote-container p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.8);
+}
+
+.quote-container p.text {
+    font-family: 'Alegreya', serif;
+    font-size: 4em;
+}
+
+.quote-container p.author {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+.chaine-available img, #mosaiquelist img{
+    max-width: 7em;
+    max-height: 5em;
+}
+
+tr.chaine-available, .ui-sortable tr {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+}
+
+.btn-yellow {
+    background: #f0dc59;
+    color:white;
+}
+.btn-yellow:hover {
+    background: #e1cf57;
+    color:white;
+}
+
+option:before {
+    content: " ";
+    height: 8px;
+    width: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+option.red:before { background: red; }
+option.green:before { background: green; }
+option.lightgrey:before { background: lightgrey; }
+
+.fa-square {
+    font-size: 4em;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer {
+    background-color: #dd4b39;
+}
