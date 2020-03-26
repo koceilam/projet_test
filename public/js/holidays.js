@@ -1,5 +1,5 @@
 /**
- * [Manage  holidays dates ]
+ * [Manage  holidays dates]
  * @param
  * @return {[type]}     [description]
  */
